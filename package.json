@@ -1,0 +1,19 @@
+{
+  "name": "NeuroScan",
+  "version": "1.0.0",
+  "description": "Deep learning algorithm for brain tumor detection.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AbhiAlest",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tensorflow": "^2.7.0",
+    "axios": "^0.24.0",
+    "multer": "^1.4.4",
+    "fs": "0.0.1-security",
+    "sharp": "^0.28.3"
+  }
+}
