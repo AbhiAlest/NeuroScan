@@ -1,23 +1,18 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { predict } = require('./predict');
+const handle = require('./handle');
 
 const app = express();
 
 // middleware
 app.use(cors());
 app.use(bodyParser.json());
+app.use(handle);
 
 // routes
 app.post('/predict', async (req, res) => {
-  try {
-    const result = await predict(req.body.image);
-    res.status(200).json(result);
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: 'Something went wrong.' });
-  }
+  // your predict route code here
 });
 
 // server
