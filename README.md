@@ -42,6 +42,11 @@ Install scikit-learn using the command:
 * conda install scikit-learn
 
 
-
-
 ---
+
+
+
+<div align="center">
+  <p> 
+    <img src="https://github.com/AbhiAlest/NeuroScan/blob/main/Logo/NeuroScan.png?raw=true" alt = "NeuroScan Logo" >
+</p> 
