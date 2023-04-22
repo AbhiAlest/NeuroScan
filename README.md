@@ -8,7 +8,7 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 ---
 <h3 >Installations and Dependencies</h3>
 
-Installations
+<h4 >Installations</h4>
 
 
 
