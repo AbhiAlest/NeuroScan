@@ -69,9 +69,11 @@ func main() {
 
 	r := mux.NewRouter()
 
-	// logging and monitoring middleware
-	r.Use(loggingMiddleware)
-	r.Use(monitoringMiddleware)
+	// Set up middleware to log requests
+	r.Use(logRequests)
+
+	// API versioning middleware
+	r.Use(apiVersioningMiddleware)
 
 	// routes
 	r.HandleFunc("/login", loginHandler).Methods("POST")
@@ -88,12 +90,16 @@ func main() {
 		})
 	})
 
-	// Set up middleware to log requests
+	// logging and monitoring middleware
+	r.Use(loggingMiddleware)
+	r.Use(monitoringMiddleware)
+
+	//routes
+	r.HandleFunc("/login", loginHandler).Methods("POST")
+	r.HandleFunc("/users/{id}", getUserHandler).Methods("GET")
+	
 	r.Use(logRequests)
-
-	// API versioning middleware
-	r.Use(apiVersioningMiddleware)
-
+	
 	// Set up websocket handlers
 	r.HandleFunc("/ws", handleWebsocketConnection)
 
