@@ -6,9 +6,9 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 </p>
 
 ---
-<h3 >Installations and Dependencies</h3>
+<h2 >Installations and Dependencies</h2>
 
-<h4 >Installations</h4>
+<h3 >Installations</h3>
 
 
 
@@ -37,7 +37,7 @@ Go
 * gorilla/handlers
 * gorilla/mux
 
-Dependencies
+<h3 >Dependencies</h3>
 
 
 
@@ -70,7 +70,7 @@ Go
 
 
 ---
-<h3 >Prerequisites</h3>
+<h2 >Prerequisites</h2>
 
 * Python 3.6 or higher
 * TensorFlow 2.x or higher
@@ -87,7 +87,7 @@ Install scikit-learn using the command:
 
 
 ---
-<h3 >Development and Production</h3>
+<h2 >Development and Production</h2>
 
 Development
 1. Clone the repository to your local machine.
