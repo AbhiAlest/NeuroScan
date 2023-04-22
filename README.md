@@ -70,23 +70,6 @@ Go
 
 
 ---
-<h2 >Prerequisites</h2>
-
-* Python 3.6 or higher
-* TensorFlow 2.x or higher
-* Keras 2.x or higher
-* NumPy
-* Matplotlib
-* scikit-learn
-
-Install TensorFlow using the command:
-* pip install tensorflow
-
-Install scikit-learn using the command:
-* conda install scikit-learn
-
-
----
 <h2 >Development and Production</h2>
 
 Development
