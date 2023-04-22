@@ -79,7 +79,7 @@ Development
 4. Start the React development server by running 'npm start' in the terminal. This should start a development server and open the app in your default browser.
 5. Open your web browser and navigate to http://localhost:3000 to access the web app.
 
-Note: If you are using Flask for the backend, you may need to set the environment variable FLASK_APP=app.py before starting the server. Similarly, if you are using Node.js and Express, you may need to install nodemon and start the server using nodemon server.js instead of node server.js. Also, make sure to set the appropriate environment variables for connecting to any external services or databases that the app relies on.
+Note: If you are using Flask for the backend, you may need to set the environment variable 'FLASK_APP=app.py' before starting the server. Similarly, if you are using Node.js and Express, you may need to install nodemon and start the server using 'nodemon server.js' instead of 'node server.js'. Also, make sure to set the appropriate environment variables for connecting to any external services or databases that the app relies on.
 
 Production (Flask)
 1. Clone the repository to your production server.
