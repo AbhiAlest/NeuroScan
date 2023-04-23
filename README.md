@@ -7,17 +7,15 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 
 ---
 
-<h2 align = "left">Architecture/Infrastructure</h2>
+<h2>Architecture/Infrastructure</h2>
 
-<div align="center">
+<p align="center">
   <p> 
     <img src="https://github.com/AbhiAlest/NeuroScan/blob/main/Predictions/Learning%20Architecture/NeuroScan%20Architecture.png?raw=true" alt = "NeuroScan Architecture" >
 </p>
 <br />
 
 ---
-  
-  
   
 <h2 >Installations and Dependencies</h2>
 
