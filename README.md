@@ -6,14 +6,6 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 </p>
 
 ---
-<h2 >Architecture/Infrastructure </h2>
-
-<div align="center">
-  <p> 
-    <img src="https://user-images.githubusercontent.com/128109884/233865429-66d16ead-4983-4a07-ba94-9a32c8190044.png" alt = "Architecture/Infrastructure" >
-</p> 
-
----
 <h2 >Installations and Dependencies</h2>
 
 <h3 >Installations</h3>
