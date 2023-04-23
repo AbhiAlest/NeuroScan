@@ -18,8 +18,6 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 
 <h3 >Installations</h3>
 
-
-
 Python
 * NumPy
 * OpenCV
