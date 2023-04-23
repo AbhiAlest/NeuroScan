@@ -4,7 +4,11 @@
   "description": "Deep learning algorithm for brain tumor detection.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "npm run build:ui",
+    "build:ui": "cd client && npm install && npm run build",
+    "start:prod": "NODE_ENV=production node index.js"
   },
   "author": "AbhiAlest",
   "license": "GPL-3.0",
@@ -15,5 +19,8 @@
     "multer": "^1.4.4",
     "fs": "0.0.1-security",
     "sharp": "^0.28.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
