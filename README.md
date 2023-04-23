@@ -94,9 +94,4 @@ Production (Flask)
 <div align="center">
   <p> 
     <img src="https://github.com/AbhiAlest/NeuroScan/blob/main/Logo/NeuroScan.png?raw=true" alt = "NeuroScan Logo" >
-</p> 
-  
-<div align="center">
-  <p> 
-    <img src="https://user-images.githubusercontent.com/128109884/233865524-0ad9309d-bc74-45e8-a4e6-8f14f998ab0b.png" alt = "Architecture/Infrastructure" >
-</p> 
+</p>
