@@ -1,17 +1,14 @@
 <h1 align="center">NeuroScan</h1>
 <br />
 
-<p align="center">
-A deep learning algorithm that uses CNN and RNN to detect a variety of brain tumors (including meningioma, glioma, and pituitary tumors). Deep learning architecture includes a dense layer, reshape layer, convolutional layer, max pooling layer, flatten layer, LSTM layer, and another dense layer. NeuroScan algorithmic optimizations are in development. 
-</p>
-
-
 <div align="center">
   <p> 
     <img src="https://user-images.githubusercontent.com/128109884/233865524-0ad9309d-bc74-45e8-a4e6-8f14f998ab0b.png" alt = "Architecture/Infrastructure" >
 </p> 
 
-
+<p align="center">
+A deep learning algorithm that uses CNN and RNN to detect a variety of brain tumors (including meningioma, glioma, and pituitary tumors). Deep learning architecture includes a dense layer, reshape layer, convolutional layer, max pooling layer, flatten layer, LSTM layer, and another dense layer. NeuroScan algorithmic optimizations are in development. 
+</p>
 
 ---
 <h2 >Installations and Dependencies</h2>
