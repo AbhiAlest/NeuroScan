@@ -4,6 +4,7 @@
 <p align="center">
 A deep learning algorithm that uses CNN and RNN to detect a variety of brain tumors (including meningioma, glioma, and pituitary tumors). Deep learning architecture includes a dense layer, reshape layer, convolutional layer, max pooling layer, flatten layer, LSTM layer, and another dense layer. NeuroScan algorithmic optimizations are in development. 
 </p>
+![image](https://user-images.githubusercontent.com/128109884/233865069-494e42cf-281a-4778-928c-5b57033520ed.png)
 
 ---
 <h2 >Installations and Dependencies</h2>
