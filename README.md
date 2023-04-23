@@ -7,7 +7,7 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 
 ---
 
-<h2 >Architecture/Infrastructure</h2>
+<h2 align = "left">Architecture/Infrastructure</h2>
 
 <div align="center">
   <p> 
