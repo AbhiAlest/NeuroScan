@@ -15,6 +15,11 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 </p>
 <br />
 
+<p align="center">
+  <p> 
+    <img src="https://github.com/AbhiAlest/NeuroScan/blob/main/Predictions/Development/Table.png?raw=true" alt = "NeuroScan Table">
+</p>
+
 ---
   
 <h2 >Installations and Dependencies</h2>
