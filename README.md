@@ -23,7 +23,7 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 To download **not-to-scale (see commit notes)** FCNN visual representation of NeuroScan's deep learning algorithm, click this link: 
 
 
-[FCNN Visual Representation (ZIP file), Simplified (409 KB)](https://github.com/AbhiAlest/NeuroScan/blob/main/Predictions/Development/NeuroScan%20SVG%20(Simplified).zip)
+[FCNN Visual Representation (ZIP File), Simplified (409 KB)](https://github.com/AbhiAlest/NeuroScan/blob/main/Predictions/Development/NeuroScan%20SVG%20(Simplified).zip)
 
 ---
   
