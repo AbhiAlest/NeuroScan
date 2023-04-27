@@ -1,7 +1,7 @@
 <h1 align="center">NeuroScan</h1>
 <br />
 <p align="center">
-A deep learning algorithm that uses CNN and RNN to detect a variety of brain tumors (including meningioma, glioma, and pituitary tumors). NeuroScan algorithmic optimizations are in development. 
+A deep learning algorithm that uses CNN and RNN to detect a variety of brain tumors (including meningioma, glioma, and pituitary tumors). NeuroScan algorithmic optimizations are in development, along with the UI. 
 </p>
 <br />
 
