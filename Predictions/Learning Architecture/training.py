@@ -48,7 +48,7 @@ pool_size = (2, 2)
 dropout_rate = 0.5
 learning_rate = 0.0001
 num_units = 64
-num_epochs = 50
+num_epochs = 70
 batch_size = 32
 num_classes = len(np.unique(y))
 
