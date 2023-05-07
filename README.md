@@ -9,10 +9,24 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 
 <h2>Architecture/Infrastructure</h2>
 
-<p align="center">
-  <p> 
-    <img src="https://github.com/AbhiAlest/NeuroScan/blob/main/Predictions/Learning%20Architecture/NeuroScan%20Architecture.png?raw=true" alt = "NeuroScan Architecture">
-</p>
+'''mermaid
+graph LR
+    A(Input MRI) --> B(Reshape layer);
+    B --> C("Convolutional layer<br> (64 filters, 3x3 kernel)");
+    C --> D("Max pooling layer<br> (2x2 pool size)");
+    D --> E("Flatten layer");
+    E --> F("Dense layer (128 units)<br> with ReLU activation");
+    F --> G("Dropout layer (50% rate)");
+    B --> H("RNN Layer");
+    H --> I("LSTM layer (64 units)");
+    I --> J("Flatten layer");
+    J --> K("Dense layer (128 units)<br> with ReLU activation");
+    K --> L("Dropout layer (50% rate)");
+    E --> M("Concatenation layer");
+    M --> N("LSTM layer (64 units)");
+    N --> O("Dense layer (3 units)<br> with Softmax activation<br> (Meningioma, Glioma,<br> Pituitary Tumor)");
+'''
+
 <br />
 
 <p align="center">
