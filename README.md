@@ -119,7 +119,7 @@ Go
 ---
 <h2 >Development and Production</h2>
 
-Development
+<h3>Development</h3>
 1. Clone the repository to your local machine.
 2. Install the necessary dependencies by running 'npm install' (for Node.js) and 'pip install -r requirements.txt' (for Python), depending on the language you are using.
 3. Start the React app/API server by running 'npm start' or 'python app.py' .
@@ -128,7 +128,7 @@ Development
 
 Note: If you are using Flask for the backend, you may need to set the environment variable 'FLASK_APP=app.py' before starting the server. Similarly, if you are using Node.js and Express, you may need to install nodemon and start the server using 'nodemon server.js' instead of 'node server.js'. Also, make sure to set the appropriate environment variables for connecting to any external services or databases that the app relies on.
 
-Production (Flask)
+<h3>Production (Flask)</h3>
 1. Clone the repository to your production server.
 2. Install the necessary dependencies using the appropriate package manager (npm install for Node.js packages, pip install for Python packages).
 3. Build the React app by running npm run build in the terminal. This should create a production-ready build of the app in a build directory.
@@ -137,7 +137,6 @@ Production (Flask)
 6. Set up a reverse proxy like nginx to serve the React app and forward API requests to the Flask server.
 7. Ensure the server is configured to handle SSL/TLS encryption for secure communication.
 8. Verify that the app is functioning correctly by accessing it through a web browser or other HTTP client.
-
 
 ---
 <div align="center">
