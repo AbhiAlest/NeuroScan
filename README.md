@@ -7,7 +7,7 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 
 ---
 
-<h2>Architecture/Infrastructure</h2>
+<h2>Architecture and Infrastructure</h2>
 
 ```mermaid
 graph LR
