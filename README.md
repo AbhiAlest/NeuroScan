@@ -51,6 +51,7 @@ graph LR
 
 *Table 1: Model layer summary*
 </p>
+    <br />
     
 To download **not-to-scale (see commit notes)** FCNN visual representation of NeuroScan's deep learning algorithm, click this link: 
 
