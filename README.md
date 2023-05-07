@@ -29,10 +29,24 @@ graph LR
 
 <br />
 
-<p align="center">
-  <p> 
-    <img src="https://github.com/AbhiAlest/NeuroScan/blob/main/Predictions/Development/Table.png?raw=true" alt = "NeuroScan Table">
-</p>
+| Layer           | Height | Width | Depth | Filter Height | Filter Width | Nodes    |
+|-----------------|--------|-------|-------|---------------|--------------|----------|
+| Input MRI       | 256    | 256   | 1     | -             | -            | 1        |
+| Reshape         | 256    | 256   | 1     | -             | -            | 1        |
+| Convolutional   | 256    | 256   | 64    | 3             | 3            | 147,456  |
+| Max Pooling     | 128    | 128   | 64    | 2             | 2            | 32,768   |
+| Flatten         | -      | -     | 8192  | -             | -            | 8,192    |
+| Dense           | -      | -     | 128   | -             | -            | 128      |
+| Dropout         | -      | -     | 128   | -             | -            | 128      |
+| RNN             | -      | -     | 8192  | -             | -            | 8,192    |
+| LSTM            | -      | -     | 64    | -             | -            | 64       |
+| Dense           | -      | -     | 128   | -             | -            | 128      |
+| Dropout         | -      | -     | 128   | -             | -            | 128      |
+| Concatenation   | -      | -     | 192   | -             | -            | 192      |
+| LSTM            | -      | -     | 64    | -             | -            | 64       |
+| Dense (Output)  | -      | -     | 3     | -             | -            | 3        |
+
+*Table 1: Model layer summary*
 
 To download **not-to-scale (see commit notes)** FCNN visual representation of NeuroScan's deep learning algorithm, click this link: 
 
