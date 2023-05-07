@@ -29,9 +29,6 @@ graph LR
 
 <br />
 
-<div align="center">
-  <p> 
-
 | Layer           | Height | Width | Depth | Filter Height | Filter Width | Nodes    |
 |-----------------|--------|-------|-------|---------------|--------------|----------|
 | Input MRI       | 256    | 256   | 1     | -             | -            | 1        |
@@ -50,8 +47,6 @@ graph LR
 | Dense (Output)  | -      | -     | 3     | -             | -            | 3        |
 
 *Table 1: Model layer summary*
-</p>
-    <br />
     
 To download **not-to-scale (see commit notes)** FCNN visual representation of NeuroScan's deep learning algorithm, click this link: 
 
