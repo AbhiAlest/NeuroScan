@@ -9,7 +9,7 @@ A deep learning algorithm that uses CNN and RNN to detect a variety of brain tum
 
 <h2>Architecture/Infrastructure</h2>
 
-'''mermaid
+```mermaid
 graph LR
     A(Input MRI) --> B(Reshape layer);
     B --> C("Convolutional layer<br> (64 filters, 3x3 kernel)");
@@ -25,7 +25,7 @@ graph LR
     E --> M("Concatenation layer");
     M --> N("LSTM layer (64 units)");
     N --> O("Dense layer (3 units)<br> with Softmax activation<br> (Meningioma, Glioma,<br> Pituitary Tumor)");
-'''
+```
 
 <br />
 
