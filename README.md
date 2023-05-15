@@ -46,7 +46,7 @@ graph LR
 | LSTM            | -      | -     | 64    | -             | -            | 64       |
 | Dense (Output)  | -      | -     | 3     | -             | -            | 3        |
 
-*Table 1: Model layer summary*
+*Table 1: Individual Model Layer Summary*
     
 To download **not-to-scale (see commit notes)** FCNN visual representation of NeuroScan's deep learning algorithm, click this link: 
 
