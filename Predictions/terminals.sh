@@ -1,4 +1,4 @@
-# Terminal 1
+# Terminal 1, deployment
 cd brain-cancer-detector
 npm start
 
