@@ -78,6 +78,19 @@ combined_model.compile(loss='categorical_crossentropy', optimizer=optimizer, met
 history = combined_model.fit(X_train, y_train, epochs=num_epochs, batch_size=batch_size,
                               validation_data=(X_val, y_val), class_weight=class_weights)
 
-# Evaluate the model
+# Evaluate the model on the test data
 test_loss, test_acc = combined_model.evaluate(X_test, y_test, verbose=2)
 print('Test accuracy:', test_acc)
+
+# Make predictions on the test data
+y_pred = combined_model.predict(X_test)
+
+# Decode one-hot encoded predictions to get class labels
+predicted_labels = label_encoder.inverse_transform(np.argmax(y_pred, axis=1))
+
+# Decode one-hot encoded true labels to get class labels
+true_labels = label_encoder.inverse_transform(np.argmax(y_test, axis=1))
+
+# Print the predicted labels and true labels
+for i in range(len(predicted_labels)):
+    print(f"Predicted: {predicted_labels[i]}, True: {true_labels[i]}")
