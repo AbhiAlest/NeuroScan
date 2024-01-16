@@ -1,5 +1,16 @@
 <h1 align="center">NeuroScan</h1>
 <br />
+
+  <p align="center">  
+    <img src="https://img.shields.io/github/license/AbhiAlest/NeuroScan.svg" alt = "License" >
+    <img src="https://img.shields.io/github/issues/AbhiAlest/NeuroScan.svg" alt = "Issues" >
+    <img src="https://img.shields.io/github/issues-pr/AbhiAlest/NeuroScan.svg" alt = "Pull Requests" >
+    <img src="https://img.shields.io/github/watchers/AbhiAlest/NeuroScan.svg" alt = "Watchers" >
+    <img src="https://img.shields.io/github/stars/AbhiAlest/NeuroScan.svg" alt = "Stars" >
+  </p>
+
+
+
 <p align="center">
 A deep learning algorithm that uses CNN and RNN to detect a variety of brain tumors (including meningioma, glioma, and pituitary tumors). NeuroScan algorithmic optimizations are in development, along with the UI. NeuroScan has an average accuracy of 97% with fixed hyperparameters. 
 </p>
