@@ -15,7 +15,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "tensorflow": "^2.7.0",
-    "axios": "^0.24.0",
+    "axios": "^0.28.0",
     "multer": "^1.4.4",
     "fs": "0.0.1-security",
     "sharp": ">=0.32.6"
